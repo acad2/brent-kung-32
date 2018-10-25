@@ -7,6 +7,7 @@ entity dyn_and is
 		input_1_and : in std_logic;
 		input_2_and : in std_logic;
 		output_and	: out std_logic
+		
 	);
 end entity dyn_and;
 

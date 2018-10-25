@@ -2,14 +2,14 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity carry_generate_block is
+entity test_vhdl is
 	port(
-		clk : in std_logic;
+		clk : in std_logic_vector(hi downto 0);
 		rst : in std_logic
 	);
-end entity carry_generate_block;
+end entity test_vhdl;
 
-architecture RTL of carry_generate_block is
+architecture RTL of test_vhdl is
 	
 begin
 
